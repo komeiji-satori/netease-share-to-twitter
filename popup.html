@@ -1,0 +1,63 @@
+﻿<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+    #widget {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .btn-o {
+        max-width: 100%;
+    }
+
+    .xl .btn {
+        height: 28px;
+        border-radius: 4px;
+        padding: 1px 10px 1px 9px;
+    }
+
+    .btn {
+        position: relative;
+        height: 20px;
+        box-sizing: border-box;
+        padding: 1px 8px 1px 6px;
+        background-color: #1b95e0;
+        color: #fff;
+        border-radius: 3px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    #count,
+    .btn,
+    .btn .label,
+    .btn-o,
+    .count-o {
+        display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+    }
+
+    a {
+        outline: 0;
+        text-decoration: none;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <div id="widget">
+        <div class="btn-o" data-scribe="component:button">
+            <a target="_blank" id="jump_to_twitter" class="btn" id="b"><i></i><span class="label" id="l">分享当前歌曲到Twitter</span></a>
+        </div>
+    </div>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+    "background":
+    {
+        "scripts": ["js/background.js"]
+    },
+    "browser_action":
+    {
+        "default_icon":
+        {
+            "128": "images/icon_128.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "Netease Music Share To Twitter"
+    },
+    "default_locale":"zh_CN",
+    "description": "喵喵喵",
+    "icons":
+    {
+        "128": "images/icon_128.png"
+    },
+    "manifest_version": 2,
+    "name": "Netease Music Share To Twitter",
+    "permissions": ["contextMenus", "proxy", "tabs", "browsingData", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*"],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "1.0"
+}
